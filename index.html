@@ -1,11 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple Note Taking App</title>
+  
 </head>
 <body>
-    
+  <h1>Simple Note Taking App</h1>
+  <form id="note-form">
+    <label for="note">Enter your note:</label>
+    <textarea id="note" required></textarea>
+    <button type="submit">Add Note</button>
+  </form>
+  <div id="notes-container"></div>
+  <button onclick="readNotes()">Read Notes</button>
+  <button onclick="clearNotes()">Clear Notes</button>
+
+  <script>
+  </script>
+  <script src="nta.js"></script>
 </body>
 </html>
